@@ -13,5 +13,9 @@ class User {
         console.log('Hi');
     }
 }
+
+const user1 = new User("Shotiko", 20);
+console.log(user1);
+`it will show us: "name and age"
 ```
 
