@@ -1,7 +1,7 @@
 # React Study
 
 ## 1) Class
-######1)easy class for example, it will print "name and age"
+###### 1) easy class for example, it will print "name and age"
 ```javascript
 class User {
     constructor(name, age) {
@@ -19,8 +19,8 @@ console.log(user1);
 ```
 
 
-## 2)arrays
-###### 2)different example of arrays
+## 2) arrays
+###### 2) different example of arrays
 ```javascript
     const hobbies = ["Sports", "Cooking", "Reading"];
 
