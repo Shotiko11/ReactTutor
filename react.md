@@ -1,7 +1,7 @@
 # 1) TITLE
 
 
-
+######1)easy class for example
 ```javascript
 class User {
     constructor(name, age) {
@@ -13,3 +13,5 @@ class User {
         console.log('Hi');
     }
 }
+```
+
