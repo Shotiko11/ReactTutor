@@ -1,7 +1,5 @@
 # 1) TITLE
-
-
-######1)easy class for example
+######1)easy class for example, it will print "name and age"
 ```javascript
 class User {
     constructor(name, age) {
@@ -16,6 +14,5 @@ class User {
 
 const user1 = new User("Shotiko", 20);
 console.log(user1);
-`it will show us: "name and age"
 ```
-
+######1)easy class for example, it will print "name and age"
