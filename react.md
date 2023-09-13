@@ -20,4 +20,6 @@ console.log(user1);
 
 ```javascript
     const hobbies = ["Sports", "Cooking", "Reading"];
+
+    hobbies.push("Working");
 ```
