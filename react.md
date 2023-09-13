@@ -15,4 +15,9 @@ class User {
 const user1 = new User("Shotiko", 20);
 console.log(user1);
 ```
-######1)easy class for example, it will print "name and age"
+
+
+
+```javascript
+    const hobbies = ["Sports", "Cooking", "Reading"];
+```
