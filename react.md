@@ -65,8 +65,12 @@ console.log(user1);
 ```
 
 
-## 4) 
-###### 5) 
+## 4) setTimeout
+###### 5) setTimeout using
 ```javascript
+1)  function handleTimeout() {
+        console.log("Time out!");
+    }
 
+    setTimeout(handleTimeout());
 ```
