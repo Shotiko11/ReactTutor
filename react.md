@@ -72,5 +72,19 @@ console.log(user1);
         console.log("Time out!");
     }
 
-    setTimeout(handleTimeout());
+    setTimeout(handleTimeout()); `It will return value imediatelly`
+
+    setTimeout(handleTimeout(), 2000); `It will return value after 2 second`
+
+    setTimeout(() => {
+        console.log("More timing out..."); `regular timeout function`
+    }, 4000) 
+
+```
+
+
+## 4) 
+###### 5) 
+```javascript
+
 ```
