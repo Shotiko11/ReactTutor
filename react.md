@@ -52,3 +52,10 @@ console.log(user1);
     const age = user.age    `this will print 20`
 
 ```
+
+
+## 4) 
+###### 5) 
+```javascript
+
+```
