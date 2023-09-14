@@ -36,3 +36,19 @@ console.log(user1);
 
 
 ```
+
+
+## 3) useful syntax 
+###### 3) easy connection
+```javascript
+    1) const [firstName, lastName] = ["Shotiko", "Kokilashvili"] `console.log(firstname) will print Shotiko and console.log(lastname) will print kokilashvili`
+
+    2)const user = {
+        name: "Shotiko",
+        age: 20
+    };
+
+    const name = user.name `this will print Shotiko`
+    const age = user.age    `this will print 20`
+
+```
