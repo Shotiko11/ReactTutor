@@ -92,7 +92,7 @@ console.log(user1);
 ###### 5)props for 2 componeets
 
 ```javascript
-  1)function ExpenseItem(props) {
+  1)function ChildElement(props) {
         return (
             <div>{props.title}</div>
         )
@@ -102,7 +102,7 @@ console.log(user1);
         const title = "Men"    `Like this we are giving props to other components`
 
         return (
-            <ExpenseItem title={title} />
+            <ChildElement title={title} />
         )
     }
 ```
