@@ -106,3 +106,11 @@ console.log(user1);
         )
     }
 ```
+
+## 6) 
+
+###### 5)
+
+```javascript
+
+```
