@@ -169,7 +169,7 @@ console.log(user1);
 
 ## 6) children statement
 
-###### 5) how to use children statement
+###### 6) how to use children statement
 
 ```javascript
     1)`exactly how to use "children" statement for minimize our code`
@@ -204,9 +204,9 @@ console.log(user1);
 
 
 
-## 6) onclick event
+## 7) onclick event
 
-###### 5) What should happen when we click "something"
+###### 7) What should happen when we click "something"
 
 ```javascript
     1)const Example = () => {
