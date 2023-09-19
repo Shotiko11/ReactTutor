@@ -299,3 +299,12 @@ console.log(user1);
         )
     }
 ```
+
+
+## **10) onChange and useState
+
+###### 10) how to mix onChange and useState together for one target
+
+```javascript
+
+```
