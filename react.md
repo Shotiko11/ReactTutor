@@ -313,9 +313,13 @@ console.log(user1);
             console.log(event.target.value)
         }
 
+        const amountChangeHandler = () => {
+
+        }
+
 
         return (
-            
+            <input type="text" onChange={amountChangeHandler} />
         )
     }
 ```
