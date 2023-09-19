@@ -1,6 +1,6 @@
 # React Study
 
-## 1) Class
+## **1) Class**
 
 ###### 1) easy class for example, it will print "name and age"
 
@@ -20,7 +20,7 @@ const user1 = new User("Shotiko", 20);
 console.log(user1);
 ```
 
-## 2) arrays
+## **2) arrays**
 
 ###### 2) different example of arrays
 
@@ -40,7 +40,7 @@ console.log(user1);
 
 ```
 
-## 3) arrays
+## **3) arrays**
 
 ###### 3) arrays
 
@@ -68,7 +68,7 @@ console.log(user1);
     5)
 ```
 
-## 4) setTimeout
+## **4) setTimeout**
 
 ###### 4) setTimeout using
 
@@ -87,7 +87,7 @@ console.log(user1);
 
 ```
 
-## 5)props
+## **5)props**
 
 ###### 5)props for 2 componeets
 
@@ -167,7 +167,7 @@ console.log(user1);
     }
 ```
 
-## 6) children statement
+## **6) children statement**
 
 ###### 6) how to use children statement
 
@@ -204,7 +204,7 @@ console.log(user1);
 
 
 
-## 7) onclick event
+## **7) onclick event**
 
 ###### 7) What should happen when we click "something"
 
@@ -240,7 +240,7 @@ console.log(user1);
     }
 ```
 
-## 8) useState event
+## **8) useState event**
 
 ###### 8) how do we use that useState function?
 
@@ -266,9 +266,9 @@ console.log(user1);
 
 
 
-## 8) input onChange
+## **9) input onChange**
 
-###### 8) how to work with onChange listener
+###### 9) how to work with onChange listener
 
 ```javascript
     `exactly how to use onChange in our code basically`
