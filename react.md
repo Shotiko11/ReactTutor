@@ -215,11 +215,9 @@ console.log(user1);
         const num = 5;
 
         return (
-            <button onClick=(() => {
-                    if(num === 5) {
-                        console.log("hello");
-                    }
-                }) ></button>
+            <button onClick={() => {
+                    console.log("Hello")
+                }}></button>
         )
     }
 ```
