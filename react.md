@@ -209,6 +209,7 @@ console.log(user1);
 ###### 7) What should happen when we click "something"
 
 ```javascript
+`First type of click handler`
     1)const Example = () => {
         
         const num = 5;
@@ -224,5 +225,19 @@ console.log(user1);
 ```
 
 ```javascript
-    2)const
+`second type of click handler`
+    2)const Example2 = () => {
+
+        const num = 5
+
+        const clickHandler = () => {
+            if(num === 5) {
+                console.log("hello")
+            }
+        }
+
+        return (
+            <button onClick={clickHandler} ></button>
+        )
+    }
 ```
