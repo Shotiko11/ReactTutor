@@ -137,7 +137,6 @@ console.log(user1);
     }
 ```
 
-
 ```javascript
     3) `whole props will bee passed "name", "lastname" and "age" with javascript syntax`
      function App() {
@@ -202,8 +201,6 @@ console.log(user1);
     }
 ```
 
-
-
 ## **7) onclick event**
 
 ###### 7) What should happen when we click "something"
@@ -211,7 +208,7 @@ console.log(user1);
 ```javascript
 `First type of click handler`
     1)const Example = () => {
-        
+
         const num = 5;
 
         return (
@@ -245,26 +242,23 @@ console.log(user1);
 ###### 8) how do we use that useState function?
 
 ```javascript
-    `we can use react hook useState like that, its very useful function(hook)`
-    import treact, { useState } from 'react'
+`we can use react hook useState like that, its very useful function(hook)`;
+import treact, { useState } from "react";
 
-    const [num, setNum] = useState(0);
+const [num, setNum] = useState(0);
 
-    const handleclick = () => {
-        setNum(num + 1);
-    }
+const handleclick = () => {
+  setNum(num + 1);
+};
 
-    return (
-        <div>
-            <h1>{num}</h1>
+return (
+  <div>
+    <h1>{num}</h1>
 
-            <button onClick={handleclick}></button>
-        </div>
-    )
-    
+    <button onClick={handleclick}></button>
+  </div>
+);
 ```
-
-
 
 ## **9) input onChange**
 
@@ -286,42 +280,57 @@ console.log(user1);
 ```
 
 ```javascript
-    `get value from input, in this example vlaue will be written in console, event.target.value`
-    const Expense = () => {
+`get value from input, in this example vlaue will be written in console, event.target.value`;
+const Expense = () => {
+  const titleHandler = (event) => {
+    console.log(event.target.value);
+  };
 
-        const titleHandler = (event) => {
-            console.log(event.target.value)
-        }
-
-
-        return (
-            <input type="text" onChange={titleHandler} />
-        )
-    }
+  return <input type="text" onChange={titleHandler} />;
+};
 ```
 
-
-## **10) onChange and useState
+## 10) onChange and useState
 
 ###### 10) how to mix onChange and useState together for one target
 
 ```javascript
-    const Expense = () => {
-        const [value, setValue] = useState('');
-        const [change, setChange] = useState('');
+`this will show you same text what you will write inside the input`
+const Expense = () => {
+  const [value, setValue] = useState("");
 
-        const ChangeHandler = () => {
-            setChange(event.target.value);
-        }
+  const ChangeHandler = (event) => {
+    setValue(event.target.value);
+  };
 
-        return (
-            <div>
-                <input type="text" onChange={ChangeHandler} />
+  return (
+    <div>
+      <input type="text" onChange={ChangeHandler} />
 
-                <h1>{value}</h1>
-            </div>
-                
+      <h1>{value}</h1>
+    </div>
+  );
+};
+```
 
-        )
-    }
+```javascript
+`this will show you same text what you write in input, but only when you click the button`
+const Expense = () => {
+  const [value, setValue] = useState("");
+  const [fase, setfase] = useState(false);
+
+  const getvalue = (e) => {
+    setValue(e.target.value);
+  };
+
+  return (
+    <div>
+      <input type="text" onChange={getvalue} />
+
+      <button onClick={() => setfase(!fase)}>Click</button>
+
+      {fase ? <h1>{value}</h1> : null}
+    </div>
+  );
+};
 ```
