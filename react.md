@@ -363,3 +363,6 @@ const Expense = () => {
 
     }
 ```
+
+
+`react usestate hookze var gacherebuli, imena useStateis sakaifod gamokenebaze`
