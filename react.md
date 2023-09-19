@@ -290,7 +290,7 @@ console.log(user1);
     const Expense = () => {
 
         const titleHandler = (event) => {
-            console.log(event.targegt.value)
+            console.log(event.target.value)
         }
 
 
@@ -306,5 +306,16 @@ console.log(user1);
 ###### 10) how to mix onChange and useState together for one target
 
 ```javascript
+    const Expense = () => {
+        const [value, setValue] = useState('');
 
+        const titleHandler = (event) => {
+            console.log(event.target.value)
+        }
+
+
+        return (
+            
+        )
+    }
 ```
