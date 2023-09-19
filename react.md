@@ -240,10 +240,26 @@ console.log(user1);
     }
 ```
 
-## 8) onclick event
+## 8) useState event
 
-###### 8) What should happen when we click "something"
+###### 8) how do we use that useState function?
 
 ```javascript
+    `we can use react hook useState like that, its very useful function(hook)`
+    import treact, { useState } from 'react'
 
+    const [num, setNum] = useState(0);
+
+    const handleclick = () => {
+        setNum(num + 1);
+    }
+
+    return (
+        <div>
+            <h1>{num}</h1>
+
+            <button onClick={handleclick}></button>
+        </div>
+    )
+    
 ```
