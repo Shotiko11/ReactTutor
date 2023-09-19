@@ -1,6 +1,6 @@
 # React Study
 
-## **1) Class**
+## 1) Class
 
 ###### 1) easy class for example, it will print "name and age"
 
