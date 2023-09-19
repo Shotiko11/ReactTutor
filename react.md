@@ -286,11 +286,11 @@ console.log(user1);
 ```
 
 ```javascript
-    `get value from input, in this example vlaue will be written in console`
+    `get value from input, in this example vlaue will be written in console, event.target.value`
     const Expense = () => {
 
         const titleHandler = (event) => {
-            console.log(event)
+            console.log(event.targegt.value)
         }
 
 
