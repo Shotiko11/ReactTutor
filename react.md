@@ -342,6 +342,7 @@ const Expense = () => {
 ###### 11) how to use useState even better?
 
 ```javascript
+`here we are giving useState 4 properties which will help us more in the future for minimize the code`
     const Expense = () => {
 
         const [user, setUser] = useState({
@@ -352,8 +353,13 @@ const Expense = () => {
 
         const titleChangeHandler = (event) => {
             setUserInput({
+                
+                `here, all the info is saved by this--> ...user, and we cna change only first`
+                
+                ...user,
                 first: event.target.value,
             })
         }
+
     }
 ```
