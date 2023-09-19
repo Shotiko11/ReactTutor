@@ -308,18 +308,20 @@ console.log(user1);
 ```javascript
     const Expense = () => {
         const [value, setValue] = useState('');
+        const [change, setChange] = useState('');
 
-        const titleHandler = (event) => {
-            console.log(event.target.value)
+        const ChangeHandler = () => {
+            setChange(event.target.value);
         }
-
-        const amountChangeHandler = () => {
-
-        }
-
 
         return (
-            <input type="text" onChange={amountChangeHandler} />
+            <div>
+                <input type="text" onChange={ChangeHandler} />
+
+                <h1>{value}</h1>
+            </div>
+                
+
         )
     }
 ```
