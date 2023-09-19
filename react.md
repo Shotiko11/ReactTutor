@@ -106,9 +106,9 @@ console.log(user1);
             <ChildElement title={title} />
         )
     }
+```
 
-
-
+```javascript
     2)`whole props will bee passed "name", "lastname" and "age", this is for not to suffer`
      function App() {
 
@@ -135,10 +135,10 @@ console.log(user1);
             </div>
         )
     }
+```
 
 
-
-
+```javascript
     3) `whole props will bee passed "name", "lastname" and "age" with javascript syntax`
      function App() {
 
