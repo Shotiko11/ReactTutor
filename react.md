@@ -241,3 +241,11 @@ console.log(user1);
         )
     }
 ```
+
+## 8) onclick event
+
+###### 8) What should happen when we click "something"
+
+```javascript
+
+```
