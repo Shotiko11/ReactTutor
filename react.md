@@ -334,3 +334,26 @@ const Expense = () => {
   );
 };
 ```
+
+
+
+# 11) Deep useState
+
+###### 11) how to use useState even better?
+
+```javascript
+    const Expense = () => {
+
+        const [user, setUser] = useState({
+            first: '',
+            second:'',
+            third:''
+        })
+
+        const titleChangeHandler = (event) => {
+            setUserInput({
+                first: event.target.value,
+            })
+        }
+    }
+```
