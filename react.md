@@ -204,10 +204,25 @@ console.log(user1);
 
 
 
-## 6) 
+## 6) onclick event
 
-###### 5) 
+###### 5) What should happen when we click "something"
 
 ```javascript
+    1)const Example = () => {
+        
+        const num = 5;
 
+        return (
+            <button onClick=(() => {
+                    if(num === 5) {
+                        console.log("hello");
+                    }
+                }) ></button>
+        )
+    }
+```
+
+```javascript
+    2)const
 ```
