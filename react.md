@@ -271,11 +271,26 @@ console.log(user1);
 ###### 8) how to work with onChange listener
 
 ```javascript
-    `exactly how to use onChange in our code`
-    const Expense = () => {
+    `exactly how to use onChange in our code basically`
+    1) const Expense = () => {
 
         const titleHandler = () => {
             console.log("title changed!")
+        }
+
+
+        return (
+            <input type="text" onChange={titleHandler} />
+        )
+    }
+```
+
+```javascript
+    `get value from input, in this example vlaue will be written in console`
+    const Expense = () => {
+
+        const titleHandler = (event) => {
+            console.log(event)
         }
 
 
