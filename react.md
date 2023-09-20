@@ -444,7 +444,7 @@ const Expense = () => {
             <div></div>
         </form>
     )
-    `if we want to clear the input we can just give it --> value="" <-- this and it will be empty after submitting or
+    `if we want to clear the input we can just give it --> value={enteredTitle} <-- this and it will be empty after submitting or
      we can set usestate variable back to empty string like this -->(setEnteredTitle(''))`
 }
 ```
