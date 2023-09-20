@@ -386,10 +386,31 @@ const Expense = () => {
 }
 ```
 
-# 12)
+# 12) useState more deeply
 
-###### 12)
+###### 12)how to use useState dinamically with functions and props
 
 ```javascript
+1)  const App = () => {
+    `here we have 3 useStates, and with function i can give each of them their value(from input) 
+    which will be written inside the input, but it is dinamically.`
+    const [enteredTitle, setEnteredTitle] = useState ('');
+    const [enteredDate, setEnteredDate] = useState ('');
+    const [enteredAmount, setenteredAmount] = useState ('');
+
+
+    const inputChange = (identifier, value) => {
+        if (identifier === 'title') {
+            setEnteredTitle(value);
+        } else if (identifier === 'date') {
+            setEnteredDate(value);
+        } else {
+            setEnteredAmount(value);
+        }
+
+    return (
+        <input type='text' onChange = {(event) => inputChange('title', e.target.value)} />
+    )    
+}
 
 ```
