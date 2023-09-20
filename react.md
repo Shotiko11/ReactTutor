@@ -369,10 +369,10 @@ const Expense = () => {
     const check = (e) => {
       const value = e.target.value;
       setInputValue(value);
-      if (value.length <= 3) {
-        setMessage('Invalid');
-      } else {
+      if (value.length > 3) {
         setMessage('Valid');
+      } else {
+        setMessage('Invalid');
       }
     };
 
