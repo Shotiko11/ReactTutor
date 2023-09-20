@@ -365,5 +365,4 @@ const Expense = () => {
 ###### 12) 
 
 ```javascript
-
 ```
