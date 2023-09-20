@@ -365,4 +365,10 @@ const Expense = () => {
 ```
 
 
-`react usestate hookze var gacherebuli, imena useStateis sakaifod gamokenebaze, 76 videoze var, interesting`
+# 11) Deep useState
+
+###### 11) how to use useState even better?
+
+```javascript
+
+```
