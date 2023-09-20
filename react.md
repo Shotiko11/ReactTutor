@@ -365,5 +365,5 @@ const Expense = () => {
 ###### 12) 
 
 ```javascript
-
+    const hello = 5;
 ```
