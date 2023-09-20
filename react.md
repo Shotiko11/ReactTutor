@@ -351,16 +351,11 @@ const Expense = () => {
             third:''
         })
 
+            `here, all the info is saved by this--> ...user, and we cna change only first`
         const titleChangeHandler = (event) => {
-            setUserInput({
-                
-                `here, all the info is saved by this--> ...user, and we cna change only first`
-                
-                ...user,
-                first: event.target.value,
+            setUserInput((prevState) => {
+                return {...prevState, first: event.target.value };
             })
-        }
-
     }
 ```
 
