@@ -295,7 +295,7 @@ const Expense = () => {
 ###### 10) how to mix onChange and useState together for one target
 
 ```javascript
-`this will show you same text what you will write inside the input`
+`this will show you same text what you will write inside the input`;
 const Expense = () => {
   const [value, setValue] = useState("");
 
@@ -314,7 +314,7 @@ const Expense = () => {
 ```
 
 ```javascript
-`this will show you same text what you write in input, but only when you click the button`
+`this will show you same text what you write in input, but only when you click the button`;
 const Expense = () => {
   const [value, setValue] = useState("");
   const [fase, setfase] = useState(false);
@@ -335,15 +335,13 @@ const Expense = () => {
 };
 ```
 
-
-
 # 11) Deep useState
 
 ###### 11) how to use useState even better?
 
 ```javascript
 `here we are giving useState 4 properties which will help us more in the future for minimize the code`
-    const Expense = () => {
+    1) const Expense = () => {
 
         const [user, setUser] = useState({
             first: '',
@@ -357,12 +355,41 @@ const Expense = () => {
                 return {...prevState, first: event.target.value };
             })
     }
+
+
+
+
+`this code is working for input, if letters length is more than 3 is shows you Valid with useState`
+2)import React, { useState } from 'react';
+
+  export default function App() {
+    const [inputValue, setInputValue] = useState('');
+    const [message, setMessage] = useState('');
+
+    const check = (e) => {
+      const value = e.target.value;
+      setInputValue(value);
+      if (value.length <= 3) {
+        setMessage('Invalid');
+      } else {
+        setMessage('Valid');
+      }
+    };
+
+  return (
+    <form>
+      <label>Your message</label>
+      <input type="text" onChange={check} />
+      <p>{message} message</p>
+    </form>
+  );
+}
 ```
 
+# 12)
 
-# 12) 
-
-###### 12) 
+###### 12)
 
 ```javascript
+
 ```
