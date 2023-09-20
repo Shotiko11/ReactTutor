@@ -360,9 +360,9 @@ const Expense = () => {
 ```
 
 
-# 11) Deep useState
+# 12) Deep useState
 
-###### 11) how to use useState even better?
+###### 12) how to use useState even better?
 
 ```javascript
 
