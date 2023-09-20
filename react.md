@@ -391,9 +391,9 @@ const Expense = () => {
 ###### 12)how to use useState dinamically with functions and props
 
 ```javascript
-1)  const App = () => {
     `here we have 3 useStates, and with function i can give each of them their value(from input) 
-    which will be written inside the input, but it is dinamically.`
+     which will be written inside the input, but it is dinamically.`
+1)  const App = () => {
     const [enteredTitle, setEnteredTitle] = useState ('');
     const [enteredDate, setEnteredDate] = useState ('');
     const [enteredAmount, setenteredAmount] = useState ('');
@@ -422,5 +422,25 @@ const Expense = () => {
 ###### 13)how to use preventDefault() function for your "submit" Form
 
 ```javascript
+    `here we are making submit function, when we finished the form andwnat to submit this is what happens,
+     inside console, we will see title, amount and date which we have entered inside the form`
+1)  const App = () => {
+    const submitHandler = () => {
+        event.preventDefault();
 
+        const showData = {
+            title: enteredTitle,
+            amount: enteredAmount, `these 3 are just useState states`
+            date: new Date(enteredDate)
+        }
+    }
+    
+
+
+    return (
+        <form onSubmit={submitHandler}>
+            <div></div>
+        </form>
+    )
+}
 ```
