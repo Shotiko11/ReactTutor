@@ -93,17 +93,17 @@ console.log(user1);
 
 ```javascript
   1)`Like this we are giving props to other components`
-  function ChildElement(props) {
-        return (
-            <div>{props.title}</div>
-        )
-    }
-
     function App() {
-        const title = "Men"
+    const title = "Men"
 
         return (
             <ChildElement title={title} />
+        )
+    }
+  
+    function ChildElement(props) {
+        return (
+            <div>{props.title}</div>
         )
     }
 ```
