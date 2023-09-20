@@ -414,3 +414,13 @@ const Expense = () => {
 }
 
 ```
+
+
+
+# 13) preventDefault();
+
+###### 13)how to use preventDefault() function for your "submit" Form
+
+```javascript
+
+```
